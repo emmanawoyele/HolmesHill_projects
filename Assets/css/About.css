@@ -1,0 +1,66 @@
+
+
+.about-jumbo {
+    height: 300px
+}
+
+.about-jumbo img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center
+}
+
+.about-us-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    margin: 80px 0 80px 0;
+    padding: 10px 0 10px 0;
+    font-family: adobe-garamond-pro, serif;
+    
+}
+
+.about-us-text p {
+    line-height: 2;
+    font-family: adobe-garamond-pro, serif;
+    padding: 25px;
+    font-size: 17px
+}
+
+.about-us-text p a{
+text-decoration:none;
+font-family: adobe-garamond-pro, serif;
+  }
+
+.service-provided li {
+    line-height: 1.9;
+    font-family: adobe-garamond-pro, serif;
+}
+
+.call-us-container {
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 70px;
+  
+}
+.call-us-text{
+text-align: center;
+}
+.call-us-container .call-us-text h1 {
+    line-height: 2.2;
+    font-family: adobe-garamond-pro, serif;
+}
+
+.call-us-container .call-us-text a {
+    text-decoration: none;
+    margin-top: 10px!important;
+    color: #000;
+    font-family: adobe-garamond-pro, serif;
+}
+
+@media only screen and (max-width:500px) {
+    .about-us-container {
+        grid-template-columns: 1fr
+    }
+}
